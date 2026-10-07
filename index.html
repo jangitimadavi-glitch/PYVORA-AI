@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PYVORA AI — Learn Python programming with simple lessons, coding practice, games and Vesper AI.">
+  <title>PYVORA AI — Learn Python Programming</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <div class="logo">🐍 PYVORA AI</div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#lessons">Lessons</a>
+        <a href="#code">Code</a>
+        <a href="#games">Games</a>
+        <a href="#vesper">Vesper AI</a>
+        <a href="#about">About</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <p class="badge">Python • Learn • Build • Play</p>
+      <h1>Learn Python with <span>PYVORA AI</span></h1>
+      <p>Simple Python lessons, coding practice, fun learning games and your AI learning buddy Vesper.</p>
+      <a class="button" href="#lessons">Start Learning</a>
+    </section>
+
+    <section id="lessons" class="section">
+      <h2>🐍 Python Lessons</h2>
+      <div class="cards">
+        <article><h3>Variables</h3><pre>name = "Shiva"
+age = 15
+print(name)
+print(age)</pre><p>A variable stores a value.</p></article>
+        <article><h3>Data Types</h3><pre>name = "Shiva"
+age = 15
+price = 99.5
+is_student = True</pre><p>Learn strings, integers, floats and booleans.</p></article>
+        <article><h3>If / Else</h3><pre>age = 15
+if age >= 18:
+    print("Adult")
+else:
+    print("Under 18")</pre><p>Make decisions in Python.</p></article>
+        <article><h3>Loops</h3><pre>for i in range(5):
+    print(i)</pre><p>Repeat code easily.</p></article>
+      </div>
+    </section>
+
+    <section id="code" class="section">
+      <h2>💻 Code Playground</h2>
+      <textarea id="codeInput">name = "PYVORA AI"
+print(name)</textarea>
+      <button class="button" onclick="runCode()">Run Code</button>
+      <pre id="output">Output will appear here...</pre>
+      <p class="note">This starter playground demonstrates the interface. Real Python execution needs a secure backend sandbox.</p>
+    </section>
+
+    <section id="games" class="section">
+      <h2>🎮 10 Fun Learning Games</h2>
+      <div class="game-grid">
+        <div>🐍 Code Snake</div><div>🚀 Python Space Battle</div>
+        <div>🏎️ Code Racer</div><div>🧩 Bug Hunter</div>
+        <div>💰 Python Treasure Hunt</div><div>🏰 Python Escape</div>
+        <div>⚔️ Code Battle</div><div>🧠 Memory Code</div>
+        <div>🎯 Code Target</div><div>🌍 Python Adventure</div>
+      </div>
+    </section>
+
+    <section id="vesper" class="section vesper">
+      <h2>🤖 Vesper AI</h2>
+      <p>Your friendly Python learning buddy.</p>
+      <div class="vesper-box">
+        <button onclick="vesper('Explain variables simply.')">Explain</button>
+        <button onclick="vesper('Give me a Python example.')">Example</button>
+        <button onclick="vesper('Help me understand my error.')">Fix My Error</button>
+        <button onclick="vesper('What should I learn next?')">Next Lesson</button>
+      </div>
+      <p id="vesperReply">Hi! I’m Vesper. Let’s learn Python together.</p>
+    </section>
+
+    <section id="about" class="section">
+      <h2>ℹ️ About PYVORA AI</h2>
+      <p>PYVORA AI is a beginner-friendly Python learning website created by Jangiti Shiva Sai.</p>
+    </section>
+  </main>
+
+  <footer>© 2026 PYVORA AI • Learn Python. Build. Play.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
