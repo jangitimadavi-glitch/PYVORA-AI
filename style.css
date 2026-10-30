@@ -289,3 +289,116 @@ footer {
   }
 }
 
+
+/* PYVORA AI - GOLD & WHITE PREMIUM THEME */
+
+:root {
+  --green: #c99718;
+  --dark-green: #79500b;
+  --light-green: #fff1c9;
+  --mint: #fffdf7;
+  --text: #44351f;
+}
+
+body {
+  background: #fffdf7;
+  color: #44351f;
+}
+
+header {
+  background: rgba(255, 253, 247, 0.97);
+  border-bottom: 1px solid #ead6a3;
+}
+
+.logo {
+  color: #b8860b;
+}
+
+.links a {
+  color: #79500b;
+}
+
+.links a:hover {
+  color: #e5a900;
+}
+
+.hero {
+  background: linear-gradient(
+    135deg,
+    #fff8e7,
+    #f5e3b5,
+    #fffdf7
+  );
+  border: 1px solid #ead6a3;
+}
+
+.badge {
+  background: #f8e6b6;
+  color: #79500b;
+}
+
+.hero h1,
+.section h2 {
+  color: #79500b;
+}
+
+.hero h1 span {
+  color: #d49b12;
+}
+
+.button {
+  background: linear-gradient(135deg, #e7b52e, #a87508);
+  color: #ffffff;
+  box-shadow: 0 6px 18px #c9971830;
+}
+
+.button:hover {
+  box-shadow: 0 10px 25px #c9971840;
+}
+
+.cards article,
+.vesper-box,
+.game-grid div,
+.my-details {
+  background: #ffffff;
+  border: 1px solid #ead6a3;
+  box-shadow: 0 8px 25px #a8750812;
+}
+
+.cards h3,
+.my-details h2 {
+  color: #b8860b;
+}
+
+pre {
+  background: #fff4d8;
+  border: 1px solid #ead6a3;
+}
+
+textarea {
+  background: #fffdf7;
+  border: 1px solid #d9b65c;
+}
+
+.note {
+  color: #806b46;
+}
+
+.vesper-box button {
+  background: #f8e6b6;
+  color: #79500b;
+}
+
+.my-details {
+  border-top: 5px solid #d4a52a;
+}
+
+.owner img {
+  box-shadow: 0 8px 25px #a8750830;
+}
+
+footer {
+  background: linear-gradient(135deg, #a87508, #e5bd52);
+  color: #ffffff;
+    }
+
